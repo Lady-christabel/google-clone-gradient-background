@@ -1,0 +1,167 @@
+body, html{
+ height: 100%;
+ margin: 0;
+ padding: 0;
+ 
+}
+body{
+background:linear-gradient( to right,#c36b84, #4fa3a5, #63c5ea, #fa5396);
+}
+*{
+ box-sizing: border-box;
+ text-decoration: none;
+ 
+}
+.head{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ max-width: 250px;
+ padding: 10px 0px;
+ margin: 0 auto;
+ height: 60px;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-right: 20px;
+
+}
+span{
+ width: 30px;
+ height: 30px;
+ background-color: green;
+ color: white;
+ border-radius: 50%;
+font-weight: 1000;
+text-align: center;
+display: flex;
+justify-content: center;
+}
+.image{ 
+ 
+ max-height: 92px;
+ position: relative;
+ text-align: center;
+}
+.img{
+ max-height: 80%;
+ max-width: 100%;
+ object-fit: contain;
+ object-position: center bottom;
+ width: auto;
+
+}
+.iii{
+ height: 20px;
+ position: absolute;
+ left: 350px;
+ top: 285px;
+}
+.input{
+ text-align: center;
+ margin-top: 120px;
+ 
+}
+input{
+ height: 50px;
+ width: 50%;
+ border-radius: 30px;
+ font-size: 20px;
+ background:linear-gradient( to right,#c36b84, #4fa3a5, #63c5ea, #fa5396);
+}
+.mic{
+ height: 20px;
+ top: 285px;
+ right: 350px;
+ 
+ position: absolute;
+}
+.csearch{
+ display: flex;
+ background:linear-gradient( to right,#c36b84, #4fa3a5, #63c5ea, #fa5396);
+ flex: 1;
+ 
+ padding: 20px;
+ text-align: center;
+ justify-content:center;
+ align-items: center;
+ margin: auto;
+ 
+}
+button{
+ padding-left: 20px;
+ margin-right: 10px;
+ background:linear-gradient( to right,#c36b84, #4fa3a5, #63c5ea, #fa5396);
+}
+.csearch a button{
+ height: 34px;
+ text-align: center;
+ width: 180px;
+}
+.lang{
+ text-align: center;
+ font-weight: 600;
+ height: 300px;
+ font-size: 18px;
+}
+.lang a{
+ color: #1a0dab;
+}
+.lang a:hover{
+ text-decoration: underline;
+}
+.nig{
+ padding: 15px 30px;
+ font-size: 15px;
+ color: #70757a;
+ background-color: #f2cac8;
+ height: 50px;
+ position: relative;
+ top: 8px;
+}
+hr{
+ height: 3px;
+ background-color: black;
+ border: none;
+ 
+}
+.about{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+background-color: #f2cac8;
+ min-width: 100%;
+ font-size: 18px;
+ position: relative;
+ height: 50px;
+ bottom: 8px;
+ padding: px;
+ padding-top: -60px;
+}
+.aaa{
+ justify-content: flex-start;
+ min-width: 30%;
+ order: 1;
+ padding: 15px;
+ 
+}
+.aaa a{
+ padding-bottom: x;
+ 
+}
+.carbon{
+ display: block;
+ padding: 15px;
+
+ order: 2;
+ min-width: 30%;
+ white-space: nowrap;
+ text-align: center;
+}
+.last{
+ min-width: 30%;
+ 
+ justify-content: flex-end;
+ padding: 15px;
+ margin-right: 10px;
+ padding-left: 180px;
+ order: 3;
+}
